@@ -111,3 +111,11 @@ h2{
     margin-left: 2.5%;
 }
 
+/*footer style*/
+
+.contact{
+    background-color: lawngreen;
+    text-align: center;
+    height: 10rem;
+    border-top: lawngreen solid 3rem;
+}
