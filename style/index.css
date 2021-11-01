@@ -35,7 +35,7 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border:1px solid grey;
+   /* border:1px solid grey;*/
 }
 
 /*general styles*/ 
@@ -63,6 +63,13 @@ h2{
 
 
 /*header style*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
 .links{
     text-align: center;
     padding: 2% 0;
@@ -82,6 +89,8 @@ h2{
 }
 
 .openp{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -109,6 +118,7 @@ h2{
     height:100%;;
     margin-right: 2.5%;
     margin-left: 2.5%;
+    margin-bottom:5%;
 }
 
 /*footer style*/
@@ -118,4 +128,42 @@ h2{
     text-align: center;
     height: 10rem;
     border-top: lawngreen solid 3rem;
+}
+
+/*TABLET STYLES*/
+@media (max-width:800px){
+    .photo img{
+        height: 60rem;
+    }
+    .pictures img{
+        height: 70%;
+        width: 30%;
+        margin-top: 10%;
+    }
+    .container{
+        margin-right: 5%;
+    }
+    .links{
+        margin-left: 30%;
+        margin-right:30%;
+    }
+}
+
+/*MOBILE STYLES*/
+@media (max-width:400px){
+    .photo img{
+        height:30rem;
+        vertical-align: middle;
+    }
+    .links{
+        margin-right: 40%;
+        margin-left:40%;
+    }
+    .openp p{
+        text-align: left;
+        margin-right: 5%;
+    }
+    .openp{
+        margin-left: 2%;
+    }
 }
