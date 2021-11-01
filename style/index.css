@@ -166,4 +166,20 @@ header{
     .openp{
         margin-left: 2%;
     }
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 1%;
+        flex-wrap: wrap;
+    }
+    .pictures{
+        flex-wrap: wrap;
+        margin-right:5%;
+        margin-left: 13%;
+    }
+    .pictures img{
+        width:40%;
+    }
+
 }
